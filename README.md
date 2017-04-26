@@ -1,1 +1,1 @@
-# Repository for various studies of JS, HTML, CSS, Processing, and others.
+# Show case of some studies and projects.
