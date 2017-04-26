@@ -1,4 +1,4 @@
-# RandomElementsfromArray
-## A small script that gets random elements from an Array.
+# Some elements form array
 
-[Check it working on my JSfiddle](https://jsfiddle.net/TasGuerciMaia/kxk1pL13/)
+Here is a code that sorts a determined number of items from an array.  
+Check this code on [GitHub](https://github.com/TasGuerciMaia/Show-case/tree/master/RandomElementsfromArray) or go to [JSfiddle](https://jsfiddle.net/TasGuerciMaia/kxk1pL13/)
