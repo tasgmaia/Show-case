@@ -13,9 +13,15 @@
 function message (address){
     return(
         'O usuário mora em '+
-        address.city +' / '+ address.state + 
-        ', no bairro ' + address.neighborhood + ', na rua ' +
-        address.street + ', número' + address.number 
+        address.city +
+        ' / '+ 
+        address.state + 
+        ', no bairro ' + 
+        address.neighborhood + 
+        ', na rua ' +
+        address.street + 
+        ', número' + 
+        address.number 
 
     )
 }
