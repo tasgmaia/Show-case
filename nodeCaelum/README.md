@@ -15,4 +15,4 @@
 Desenvolvedores web interessados em conhecer o JavaScript como alternativa à linguagem do servidor, desenvolvendo um BFF (Backend For FrontEnd), uma API com JavaScript e com o NodeJS como plataforma.
 
 
-[Course website](https://www.caelum.com.br/curso-nodejs-express)
+[site do curso](https://www.caelum.com.br/curso-nodejs-express)
