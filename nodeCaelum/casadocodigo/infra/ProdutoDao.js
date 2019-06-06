@@ -2,8 +2,8 @@ function ProdutoDao(connection){
     this._connection = connection;
 };
 
-ProdutoDao.prototype.livros = function (callback) {
-    this._connection.querry ('SELECT * FROM livros', callback)
+ProdutoDao.prototype.lista = function(callback) {
+    this._connection.query('SELECT * FROM livros', callback)
 }
 
 module.exports = function () {
