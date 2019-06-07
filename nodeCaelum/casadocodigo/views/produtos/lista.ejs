@@ -15,6 +15,7 @@
                     <td>Título</td>
                     <td>Preco</td>
                     <td>Descriçaão</td>
+                    <td>Excluir</td>
                 </thead>
                 <tbody>
                     <% for (let i = 0; i < livros.length; i++) {%>
@@ -22,6 +23,7 @@
                             <td> <%= livros[i].titulo %> </td>
                             <td> <%= livros[i].preco %> </td>
                             <td> <%= livros[i].descricao %> </td>
+                            <td> Excluir </td>
                         </tr>
                     <% } %>
                 </tbody>
