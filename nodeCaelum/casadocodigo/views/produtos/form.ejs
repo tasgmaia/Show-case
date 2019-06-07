@@ -11,6 +11,13 @@
             <h2 class="basic-title">Add</h2>
             <a style="" href="/produtos">Ver lista de livros </a>
         </div>
+        <% if(locals.validationErrors){ %>
+            <ul class="list-unstyled">
+                <% for(let i=0; i<validationErrors.length; i++){%> 
+                <li class="alert alert-danger"> <%= validationErrors[i].msg %></li>
+                <% } %>
+            </ul>
+            <% } %>
         <form style="max-width: 70%; margin: 0 auto;" action="/produtos" method="post" class="well" role="form">
             <div class="form-group">
                 <label for="titulo">Titulo</label>
