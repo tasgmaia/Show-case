@@ -36,6 +36,7 @@ module.exports = function (app){
             });
             return;
         } 
+
         const connection = app.infra.connectionFactory();
         const produtoDao = new app.infra.ProdutoDao(connection);
         produtoDao.salva(livro, function(exception, results){
@@ -45,5 +46,14 @@ module.exports = function (app){
     app.get ('/produtos/form', function(req, res){
         res.render('produtos/form')
     });
-    
+
+    app.delete('/produtos/:id', function(req, res){
+        const livroId = req.params.id;
+        const connection = app.infra.connectionFactory();
+        const produtoDao = new app.infra.ProdutoDao(connection);
+        console.log(produtoDao);
+        produtoDao.delete(livroId, function(exception, results){
+            res.status(204).end();
+        });
+    });
 };
