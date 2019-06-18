@@ -1,9 +1,14 @@
 const express = require('express');
+const mongoose = require('mongoose');
+
 const app = express();
-app.get('/', (req, res) => {
-    return res.send ('Olá ' + req.query.name)
+
+mongoose.connect('mongodb+srv://semanaomini:aq12WSdE34rf@cluster0-ctfcb.mongodb.net/test?retryWrites=true&w=majority', {
+   useNewUrlParser: true, 
 });
+
+app.use(require('./routes'));
 app.listen(3333);
 
 
-//PAREI NO VIDEO 2 em 11 minutos
+//PAREI NO VIDEO 39 minutos
