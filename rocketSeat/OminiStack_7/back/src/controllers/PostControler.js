@@ -25,7 +25,9 @@ module.exports = {
             .toFile(
                 path.resolve(req.file.destination, 'resized', fileName)
             )
+            
         fs.unlinkSync(req.file.path);
+
         const post = await Post.create({
             author,
             place,
