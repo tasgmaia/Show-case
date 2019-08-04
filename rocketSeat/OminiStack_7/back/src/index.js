@@ -10,6 +10,3 @@ mongoose.connect('mongodb+srv://semanaomini:aq12WSdE34rf@cluster0-ctfcb.mongodb.
 app.use('/file', express.static(path.resolve(__dirname, '..', 'uploads', 'resized' )));
 app.use(require('./routes'));
 app.listen(3333);
-
-
-//PAREI NO VIDEO 46 minutos
