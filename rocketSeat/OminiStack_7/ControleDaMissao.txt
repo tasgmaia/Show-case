@@ -5,3 +5,5 @@ ou se ao criar com a extensao .jpg o app perdeu track da imagem.
 Antes do split funcionava.
 - Resolvido, era um problema no PostController, eu não chamei o 
 nome da imagem completo no post
+
+5/8 Video 3 - 8:28
