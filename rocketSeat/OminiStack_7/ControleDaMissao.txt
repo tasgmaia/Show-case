@@ -6,4 +6,4 @@ Antes do split funcionava.
 - Resolvido, era um problema no PostController, eu não chamei o 
 nome da imagem completo no post
 
-5/8 Video 3 - 8:28
+5/8 Aula 3 - 8:28
