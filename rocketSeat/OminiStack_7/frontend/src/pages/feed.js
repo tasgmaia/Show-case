@@ -19,6 +19,14 @@ class Feed extends Component {
             </div>
             <img src={more} alt="Mais" />
           </header>
+          <img src = "http://localhost:3333/files/test.jpg" alt=""/>
+          <footer>
+            <div className="actions">
+              <img src={like} alt =""/>
+              <img src={comment} alt =""/>
+              <img src={send} alt =""/>
+            </div>
+          </footer>
         </article>
       </section>
     );
