@@ -1,0 +1,11 @@
+function sus(...answers) {
+  let soma = 0;
+  for (let indice = 0; indice < answers.length; indice++) {
+    if (indice % 2 === 0) {
+      soma += answers[indice] - 1;
+    } else {
+      soma += 5 - answers[indice];
+    }
+  }
+  return (soma * 2.5);
+}
